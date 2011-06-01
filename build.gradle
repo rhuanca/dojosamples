@@ -1,0 +1,13 @@
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: 'eclipse'
+
+version = 0.1
+
+repositories {
+     mavenCentral()
+}
+
+dependencies {
+	providedCompile "javax.servlet:servlet-api:2.5"
+}
